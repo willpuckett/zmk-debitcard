@@ -12,6 +12,5 @@ if SHIELD_DEBITCARD
 
 config ZMK_KEYBOARD_NAME
 	default "debitcard"
-
 endif
 
