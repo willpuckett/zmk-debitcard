@@ -22,6 +22,7 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       # revision: my-changes/split-encoder
+      revision: main
       import: app/west.yml
   self:
     path: config
