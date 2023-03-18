@@ -8,10 +8,10 @@ config ZMK_USB
 	default y
 
 
-if SHIELD_PUNI
+if SHIELD_DEBITCARD
 
 config ZMK_KEYBOARD_NAME
-	default "Puni"
+	default "debitcard"
 
 endif
 
