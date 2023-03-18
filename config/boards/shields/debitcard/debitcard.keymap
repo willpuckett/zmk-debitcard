@@ -32,13 +32,13 @@
             timeout-ms = <10>;
             key-positions = <8 9>;
             bindings = <&to FUN>;
-	    layers = <NM1>; 
+	    layers = <NUM>; 
         };
         combo_bt  {
             timeout-ms = <10>;
             key-positions = <5 6>;
             bindings = <&to BT>;
-	    layers = <NM1>; 
+	    layers = <NUM>; 
         };
 
     };
