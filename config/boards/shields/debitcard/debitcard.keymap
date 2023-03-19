@@ -58,7 +58,7 @@
 		>;
 		};
 
-		func {
+		fun {
 		bindings = <
 		        &kp F7  &kp F8  &kp F9
 		        &kp F4  &kp F5  &kp F6
