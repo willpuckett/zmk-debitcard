@@ -1,14 +1,13 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
+if SHIELD_DEBITCARD
+
 config ZMK_BLE
 	default y
 
 config ZMK_USB
 	default n
-
-
-if SHIELD_DEBITCARD
 
 config ZMK_KEYBOARD_NAME
 	default "debitcard"

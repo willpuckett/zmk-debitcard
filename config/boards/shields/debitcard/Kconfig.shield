@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 	
-config SHIELD_PUNI
+config SHIELD_DEBITCARD
 	def_bool $(shields_list_contains,debitcard)
 
 
