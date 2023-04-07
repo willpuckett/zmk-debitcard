@@ -30,15 +30,23 @@
 
         combo_func  {
             timeout-ms = <10>;
-            key-positions = <8 9>;
+            key-positions = <9>;
             bindings = <&to FUN>;
 	    layers = <NUM>; 
         };
+
         combo_bt  {
             timeout-ms = <10>;
-            key-positions = <5 6>;
+            key-positions = <9>;
             bindings = <&to BT>;
-	    layers = <NUM>; 
+	    layers = <FUN>; 
+        };
+		
+        combo_num  {
+            timeout-ms = <10>;
+            key-positions = <9>;
+            bindings = <&to NUM>;
+	    layers = <BT>; 
         };
 
     };
